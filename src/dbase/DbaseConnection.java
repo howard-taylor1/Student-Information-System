@@ -4,9 +4,8 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class DbaseConnection {
-    public static int studentID;
-    public static String password;
-    public static String first_name;
+    private static int studentID;
+
 
     // Display Login Menu on screen
     public static void loginMenu(){
@@ -32,12 +31,14 @@ public class DbaseConnection {
 
         while(true) {
             System.out.print("Password: ");
-            password = sc.next();
+            String password = sc.next();
             if(DbaseConnection.checkPassword(studentID, password)){
                 break;
             }
             System.out.println("Invalid Password");
         }
+        sc.next();
+        sc.close();
     }
     //check if studentID exists
     public static boolean checkStudent(int studentID) {
@@ -66,7 +67,7 @@ public class DbaseConnection {
         return true;
     }
 
-    //check if studentID exists
+    //check password
     public static boolean checkPassword(int studentID, String password) {
         try {
             Connection con = DriverManager.getConnection(
@@ -88,20 +89,54 @@ public class DbaseConnection {
                 return false;
             }
 
-            while(resultSet.next()){
-                first_name = resultSet.getString(2);
-                System.out.println("Hello " + first_name +
+            if (resultSet.next()){
+                String first_name = resultSet.getString(2);
+                System.out.println("\nHello " + first_name +
                         "! What would you like to do?");
+                mainMenu();
             }
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+
         return true;
     }
 
-    public static void mainMenu() {
-        System.out.println("Main Menu");
+    public static void mainMenu(){
+
+        Scanner sc = new Scanner(System.in);
+        int choice;
+
+        do {
+            System.out.println("1. Display Schedule");
+            System.out.println("2. Register for a Class");
+            System.out.println("3. Exit");
+            System.out.print("Enter your choice: ");
+
+            choice = sc.nextInt();
+
+            switch (choice) {
+                case 1:
+                    System.out.println("\nYou selected Display Schedule.\n");
+                    break;
+                case 2:
+                    System.out.println("\nYou selected Register for a Class.\n");
+                    break;
+                case 3:
+                    System.out.println("Exiting...");
+                    break;
+                default:
+                    System.out.println("\nInvalid choice, try again.\n");
+            }
+        } while (choice != 3);
+
+        sc.close();
+
+        System.exit(0);
+
+
 
     }
+
 }
