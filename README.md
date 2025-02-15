@@ -7,7 +7,7 @@
 
 ## Student Information System
 
-Write something here...
+...
 
 </header>
 
@@ -18,9 +18,7 @@ Write something here...
 
 ### About
 
-Write something here...
-
-Copy/paste images as needed.
+...
 
 
 <footer>
