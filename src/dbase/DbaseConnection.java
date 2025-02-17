@@ -132,10 +132,7 @@ public class DbaseConnection {
         } while (choice != 3);
 
         sc.close();
-
         System.exit(0);
-
-
 
     }
 
