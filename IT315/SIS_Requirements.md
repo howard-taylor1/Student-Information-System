@@ -39,15 +39,18 @@ The basic information to maintain for all kinds of classes include the following
 -	Course ID
 -	Class begin date
 -	Class end date
+  
 In addition, online classes also maintain the following information:
 -	Class URL
 -	Class browser
+  
 Similarly, face-to-face classes should maintain this additional information about them:
 -	Class building
 -	Class room
 
 ###	Register a Student for Classes
-o	Both students and enrollment staff should be able to register a student (either online or face-to-face) for a class offering for a course. The registration process should proceed as follows:
+
+Both students and enrollment staff should be able to register a student (either online or face-to-face) for a class offering for a course. The registration process should proceed as follows:
 a)	The student information is entered to identify the registering student.
 b)	The course information for which to register is entered to identify the course.
 c)	All future classes with start dates after the current date for this course are displayed.
