@@ -5,24 +5,25 @@
  
 -->
 
-## IT 315 Student Information System Requirements Definitions
+# IT 315 Student Information System Requirements Definitions
 
-Nonfunctional Requirements:
-•	The student information system (SIS) should be accessible as both a website and a mobile app.
-•	The SIS users are students and enrollment staff.
-•	The SIS should enforce appropriate security privileges to its uses.
+## Nonfunctional Requirements:
+-	The student information system (SIS) should be accessible as both a website and a mobile app.
+-	The SIS users are students and enrollment staff.
+-	The SIS should enforce appropriate security privileges to its uses.
 
-Functional Requirements:
-•	Maintain Student Records
-o	The SIS should maintain records of basic information about students such as:
-a)	First name
-b)	Middle initials
-c)	Last name
-d)	Date of birth
-e)	Student ID
-f)	Department (e.g., psychology)
-g)	Cumulative GPA (on a scale of 1.0 to 4.0)
-o	These records are updated by the enrollment staff who has the permissions to add, modify, and/or delete any student record.
+## Functional Requirements:
+
+### Maintain Student Records:
+The SIS should maintain records of basic information about students such as:
+- First name
+-	Middle initials
+-	Last name
+-	Date of birth
+-	Student ID
+-	Department (e.g., psychology)
+-	Cumulative GPA (on a scale of 1.0 to 4.0)
+-	These records are updated by the enrollment staff who has the permissions to add, modify, and/or delete any student record.
 •	Maintain Course Records
 o	The SIS should maintain records of all the courses offered by the college.
 o	The system should maintain the following fields for each course:
