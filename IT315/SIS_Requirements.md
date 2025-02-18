@@ -51,20 +51,20 @@ Similarly, face-to-face classes should maintain this additional information abou
 ###	Register a Student for Classes
 
 Both students and enrollment staff should be able to register a student (either online or face-to-face) for a class offering for a course. The registration process should proceed as follows:
-a)	The student information is entered to identify the registering student.
-b)	The course information for which to register is entered to identify the course.
-c)	All future classes with start dates after the current date for this course are displayed.
-d)	The enrollment staff enter future classes for only one semester out.
-e)	A selection of one class for which to register is then made.
-f)	The selected class registration is then validated against the following registration rules:
-i.	There is no duplicate registration for the same class in one semester.
-ii.	Online class registration requires students to acknowledge that they have the required hardware and software to access online classes.
-iii.	No more than three class registrations are allowed for one student in one semester unless the student’s GPA is greater than 3.5. (In this case, there is no limit on number of class registrations.)
-o	When the class registration is validated against the above rules, a confirmation is then displayed to confirm registration. Otherwise, a message explaining the violation of the associated rule is displayed.
-o	The process continues, starting from item b), until the user ends the session.
+-	The student information is entered to identify the registering student.
+-	The course information for which to register is entered to identify the course.
+-	All future classes with start dates after the current date for this course are displayed.
+-	The enrollment staff enter future classes for only one semester out.
+-	A selection of one class for which to register is then made.
+-	The selected class registration is then validated against the following registration rules:
+  
+    - There is no duplicate registration for the same class in one semester.
+    - Online class registration requires students to acknowledge that they have the required hardware and software to access online classes.
+    - No more than three class registrations are allowed for one student in one semester unless the student’s GPA is greater than 3.5. (In this case, there is no limit on number of class registrations.)
 
+-	When the class registration is validated against the above rules, a confirmation is then displayed to confirm registration. Otherwise, a message explaining the violation of the associated rule is displayed.
+-	The process continues, starting from item b), until the user ends the session.
 
-...
 
 </header>
 
@@ -73,17 +73,10 @@ o	The process continues, starting from item b), until the user ends the session.
   Review what we learned, ask for feedback, provide next steps.
 -->
 
-
-
-...
-
-
 <footer>
 
 <!--
   <<< Author notes: Footer >>>
   Add a link to get support, GitHub status page, code of conduct, license link.
 -->
-
----
 
