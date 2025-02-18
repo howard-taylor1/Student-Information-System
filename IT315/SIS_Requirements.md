@@ -15,7 +15,7 @@
 ## Functional Requirements:
 
 ### Maintain Student Records:
-The SIS should maintain records of basic information about students such as:
+These records are updated by the enrollment staff who has the permissions to add, modify, and/or delete any student record. The SIS should maintain records of basic information about students such as:
 - First name
 -	Middle initials
 -	Last name
@@ -23,33 +23,30 @@ The SIS should maintain records of basic information about students such as:
 -	Student ID
 -	Department (e.g., psychology)
 -	Cumulative GPA (on a scale of 1.0 to 4.0)
--	These records are updated by the enrollment staff who has the permissions to add, modify, and/or delete any student record.
-•	Maintain Course Records
-o	The SIS should maintain records of all the courses offered by the college.
-o	The system should maintain the following fields for each course:
-a)	Course ID
-b)	Course name
-c)	Credit hours
-d)	Description
-e)	Prerequisite course
-o	These records are updated by the enrollment staff who has the permissions to add, modify, and/or delete any course record.
-•	Maintain Class Records
-o	Classes are offered each semester of the above courses.
-o	There are two kinds of classes: Online classes offered over the internet are accessible via a web browser and face-to-face classes are offered on campus at the college.
-o	A class cannot exist without an associated course in the system.
-o	The basic information to maintain for all kinds of classes include the following:
-a)	Course ID
-b)	Class begin date
-c)	Class end date
-o	In addition, online classes also maintain the following information:
-a)	Class URL
-b)	Class browser
-o	Similarly, face-to-face classes should maintain this additional information about them:
-a)	Class building
-b)	Class room
-o	These records are updated by the enrollment staff who has the permissions to add, modify, and/or delete any class record (either online or face-to-face).
+  
+###	Maintain Course Records
+The SIS should maintain records of all the courses offered by the college. These records are updated by the enrollment staff who has the permissions to add, modify, and/or delete any course record.
+The system should maintain the following fields for each course:
+-	Course ID
+-	Course name
+-	Credit hours
+-	Description
+-	Prerequisite course.
+###	Maintain Class Records
+These records are updated by the enrollment staff who has the permissions to add, modify, and/or delete any class record (either online or face-to-face). Classes are offered each semester of the above courses.
+There are two kinds of classes; Online classes offered over the internet are accessible via a web browser and face-to-face classes are offered on campus at the college. A class cannot exist without an associated course in the system.
+The basic information to maintain for all kinds of classes include the following:
+-	Course ID
+-	Class begin date
+-	Class end date
+In addition, online classes also maintain the following information:
+-	Class URL
+-	Class browser
+Similarly, face-to-face classes should maintain this additional information about them:
+-	Class building
+-	Class room
 
-•	Register a Student for Classes
+###	Register a Student for Classes
 o	Both students and enrollment staff should be able to register a student (either online or face-to-face) for a class offering for a course. The registration process should proceed as follows:
 a)	The student information is entered to identify the registering student.
 b)	The course information for which to register is entered to identify the course.
