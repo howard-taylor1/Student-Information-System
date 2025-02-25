@@ -19,11 +19,6 @@ The goal of this portfolio is to showcase my past and present work, and glimpse 
   Review what we learned, ask for feedback, provide next steps.
 -->
 
-
-
-...
-
-
 <footer>
 
 <!--
