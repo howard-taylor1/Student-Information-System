@@ -27,6 +27,5 @@ The goal of this portfolio is to showcase my past and present work, and glimpse 
   Add a link to get support, GitHub status page, code of conduct, license link.
 -->
 
----
 
 
