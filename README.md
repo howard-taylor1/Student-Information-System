@@ -11,6 +11,10 @@ The goal of this portfolio is to highlight my past and present work, and glimpse
 
 </header>
 
+Here
+
+Here
+
 <!--
   <<< Author notes: Finish >>>
   Review what we learned, ask for feedback, provide next steps.
